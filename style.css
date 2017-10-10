@@ -1,0 +1,289 @@
+
+/*http://paletton.com/#uid=53E0y0kl7qT3TSRdF-6r6l7E1cB*/
+
+ul{
+            padding: 0px;
+            margin: 0px;
+        }
+        
+li{
+            display: inline;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+        }
+
+p{
+    font-family: mukta;
+    padding: 3em;
+    padding-top: 1em;
+    margin: 0px;
+    margin-bottom: 2em;
+}
+
+h1{
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0.5em;
+    margin-top: 1.5em;
+    font-family: mukta, sans-serif;
+}
+
+.link{
+    padding-left: 0.3em;
+    padding-right 0.3em;
+    color: rgba(4, 30, 66, 1);
+    transition: background-color 1s;
+}
+.link:hover{
+    background-color: rgba(131, 148, 170, 0.8);
+    transition: background-color 2s;
+}
+
+
+.newsimg{
+    max-width: 250px;
+    width: 40%;
+    margin: 1.5em;
+    margin-left: 10%;
+    display: inline;
+    float: left;
+    border-radius: 10%;
+    box-shadow: .5em .5em .5em rgba(0,0,0,.1)
+}
+        
+.blockback{
+                background-color: rgba(153, 167, 187, 0.5);
+                width: 85vw;
+                height: 100%;
+                margin-left: -43%;
+                position: fixed;
+                display: inline;
+                z-index: -2;
+        }
+.blockL{
+        border-bottom: 3px solid rgba(4, 30, 66, 0.8);
+        border-left: 2px solid rgba(4, 30, 66, 0.8);
+        background-color: white;
+        float:left;
+        width: 37%;
+        margin: none;
+        padding: none;
+        margin-left: 12%;
+        border-radius: 5%;
+        margin-bottom: 2em;
+        box-shadow: .5em .5em .5em rgba(0,0,0,.2)
+                 
+        }
+
+.blockR{
+     border-bottom: 3px solid rgba(4, 30, 66, 0.8);
+        border-left: 2px solid rgba(4, 30, 66, 0.8);
+     background-color: white;
+     float:right;
+     margin: none;
+     padding: none;
+     width: 37%;
+     margin-right: 12%;
+     margin-bottom: 2em;
+    border-radius: 5%;
+    box-shadow: .5em .5em .5em rgba(0,0,0,.2)
+}
+     
+
+.menu{
+           background-color: rgba(4, 30, 66, 0.8);
+            display: block;
+            position: fixed;
+            width: 100%;
+            height: auto;
+            z-index: 10;
+            margin-top: 0px;
+            border-bottom: solid 3px grey;
+        }
+
+#menuopt{
+    font-family: Oswald, sans-serif;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+    position: relative;
+    top: -.7em;
+    color:white;
+    border-radius: 10%;
+    transition: background-color 1s;
+    
+}
+
+
+#menuopt:hover{
+    background-color: rgba(131, 148, 170, 0.8);
+    border-radius: 10%;
+    transition: background-color .5s
+}
+
+
+
+
+.dropdown{
+    font-family: Oswald, sans-serif;
+    font-size: 1.5em;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+    position: relative;
+    top: -0.7em;
+    color:white;
+
+}
+
+.dropdown:hover{
+    background-color: rgba(131, 148, 170, 0.8);
+    border-radius: 10%;
+    transition: background-color .5s;
+}
+
+
+.dropdown:hover .dropdown-content{
+   background-color: rgba(44, 70, 106, 1);
+    display:inline-block;
+    position:fixed;
+    top: 2em;
+    right: 0%;
+    left:0%;
+    padding: .5em;
+    z-index: 1;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown-content a{
+    font-family: mukta;
+    color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: none;
+}
+
+.dropdown-content a:hover{
+     background-color: rgba(131, 148, 170, 0.8);
+    border-radius: 10%;
+    transition: background-color 1s;
+}
+
+
+
+
+            
+#logofb{
+              background-image: url(resources/fbwhite.png);
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 3em;
+              height: 3em;
+              transition: background-image 1s;
+              transition: background-color 1s;
+              border-radius: 50%;
+              position: relative;
+        }
+        
+#logofb:hover{
+            background-image: url(resources/fb.png);
+            background-color: white;
+            border-radius: 50%;
+            transition: background-image 1s;
+            transition: background-color 1s;
+        }
+        
+#logoemail{
+              background-image: url(resources/emailwhite.png);
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 3em;
+              height: 3em;
+              transition: background-image 1s;
+              transition:  background-color 1s;
+                border-radius: 50%;  
+              position: relative;
+        }
+            
+#logoemail:hover{
+            background-image: url(resources/email.png);
+            background-color: white;
+            border-radius: 50%;
+            transition: background-image 1s;
+            transition:  background-color 1s;
+            
+        }
+
+#logospotify{
+              background-image: url(resources/spotifywhite.png);
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 3em;
+              height: 3em;
+              transition: background-image 1s;
+              transition:  background-color 1s;
+                border-radius: 50%;  
+              position: relative;
+}
+    
+#logospotify:hover{  background-image: url(resources/spotify.png);
+            background-color: white;
+            border-radius: 50%;
+            transition: background-image 1s;
+            transition:  background-color 1s;
+            
+        }
+
+#logoitunes{
+              background-image: url(resources/itunes%20white.png);
+              display: inline-block;
+              background-repeat: no-repeat;
+              background-size: contain;
+              width: 3em;
+              height: 3em;
+              transition: background-image 1s;
+              transition:  background-color 1s;
+                border-radius: 50%;  
+              position: relative;
+}
+    
+#logoitunes:hover{  background-image: url(resources/itunes.png);
+            background-color: white;
+            border-radius: 50%;
+            transition: background-image 1s;
+            transition:  background-color 1s;
+            
+        }
+
+
+#logohemi{
+             background-image: url(resources/hemifr%C3%A5nlogga.png);
+            margin: 0px;
+            padding: 0px;
+            margin-top: 6px;
+             display: inline-block;
+             background-repeat: no-repeat;
+             background-size: contain;
+             width: 8em;
+             height: 3em;
+            transition: background-image 1s;
+        
+        }
+#logohemi:hover{
+            background-image: url(resources/hemifr%C3%A5nloggainvert.png);
+            transition: background-image 1s;   
+        }
